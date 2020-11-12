@@ -1,3 +1,4 @@
+// imports necessary components for the Navbar to function
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { MdFingerprint } from 'react-icons/md';

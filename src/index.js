@@ -1,3 +1,4 @@
+// imports necessary components for the script to function
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';

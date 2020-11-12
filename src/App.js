@@ -1,3 +1,4 @@
+// imports necessary components for the script to function
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
@@ -14,6 +15,7 @@ import ScrollToTop from './components/ScrollToTop';
 
 function App() {
   return (
+    // Creates a router to route to the appropriate pages
     <Router>
       <ScrollToTop />
       <Navbar />
