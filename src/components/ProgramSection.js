@@ -18,7 +18,7 @@ function ProgramSection({
                             <p className = {lightTextDesc ? 'home__program-speaker' : 'home__program-speaker dark'}>{speaker}</p>
                             <p className = {lightTextDesc ? 'home__program-date' : 'home__program-date dark'}>{date}       {time}</p>
                             <p className = {lightTextDesc ? 'home__program-location' : 'home__program-location dark'}>{location}</p>
-                            <Link to="/components/views/Program/Program.js">
+                            <Link to="/components/views/Program/Program.jsx">
                                 <Button buttonSize='btn--wide' buttonColour='blue'>{buttonLabel}</Button>
                             </Link>
                         </div>

@@ -60,6 +60,11 @@ function Registration() {
       {errors.email && errors.email.type === "required" && <p>This is required</p> }
       {errors.email && errors.email.type === "validate" && <p>Please enter a valid email address</p>}
 
+      <label>Password</label>
+      <input name="password" ref={register ({ required: true, minLength: 8 })}/>
+      {errors.password && errors.password.type === "required" && <p>This is required</p> }
+      {errors.password && errors.password.type === "minLength" && <p>This field requires a minimum length of 8</p> }
+
       <label>College (If applicable)</label>
       <textarea name="college" ref={register ({ minimumLength: 2 })}/>
       {errors.college && errors.college.type === "minLength" && <p>This field requires a minimum length of 2</p> }
